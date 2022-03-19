@@ -1,0 +1,9 @@
+<template>
+  <header>ⓒ copyright Lain. Allright reserved.</header>
+</template>
+
+<script>
+export default {
+  name: 'Header'
+}
+</script>
