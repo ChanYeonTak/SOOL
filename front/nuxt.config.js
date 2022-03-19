@@ -1,3 +1,5 @@
+import * as FontAwesome from './assets/icon/fontawesome'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -32,8 +34,18 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    ['@nuxtjs/fontawesome',
+      { component: 'fa', suffix: true }]
+    // component 설정으로 이름 축약하여 사용 가능
   ],
+  fontawesome: {
+    icons: {
+      solid: FontAwesome.solid,
+      regular: FontAwesome.regular,
+      brands: FontAwesome.brands
+    }
+  },
   styleResources: {
     scss: [
       '~/assets/scss/*.scss'
