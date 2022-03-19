@@ -1,8 +1,9 @@
 <template>
   <body>
     <div class="container">
-      <div>
-        전세계의 모든 술이, 한자리에.
+      <div class="font">
+        전세계의 모든 술이, 한자리에. <br>
+        this is english
       </div>
       <div>
         매번 다른 사이트에서 헤매는 것은 이제 그만.
@@ -24,7 +25,7 @@
 </template>
 
 <style lang="scss" scoped>
-  .container {
-      font-family: 'Noto Sans KR', sans-serif;
+  .container .font {
+    font-weight: 100;
   }
 </style>

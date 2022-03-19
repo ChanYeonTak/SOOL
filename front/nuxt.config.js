@@ -18,8 +18,9 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    // 한글 폰트 SpoqaHanSansNeo, 영어 폰트 Inter
+    '~/assets/fonts/fonts.css'
   ],
-
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
