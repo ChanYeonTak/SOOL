@@ -1,7 +1,9 @@
 // solid type : 차있는것
 const solid = [
   'faPhone',
-  'faEnvelope'
+  'faEnvelope',
+  'faSearch',
+  'faUser'
 ]
 
 // regular type : 비어있는것

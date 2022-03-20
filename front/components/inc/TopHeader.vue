@@ -1,44 +1,44 @@
 <template>
   <header class="header-wrapper">
-    <TopLogo class="navi-pc" />
-    <TopNavi class="navi-mobile" />
+    <div class="header-wrap">
+      <div class="logo">
+        <TopLogo />
+        <TopLogoMobile />
+      </div>
+      <TopNavi class="navi-pc" />
+    </div>
   </header>
 </template>
 
 <script>
 import TopLogo from './TopLogo.vue'
+import TopLogoMobile from './TopLogoMobile.vue'
 import TopNavi from './TopNavi.vue'
 
 export default {
   name: 'Header',
   components: {
     TopLogo,
+    TopLogoMobile,
     TopNavi
   }
 }
 </script>
 
 <style lang="scss" scoped>
- header {
-   font-weight:700;
- }
- .header-wrapper {
-  @include rel;
-  @include flex($h: space-between);
-  background-color: $dark-color;
-  color: $light-color;
+.header-wrapper {
+  @include header;
+  width: 100%;
+  opacity: .8;
+  background-color: $white-color;
+  color: $dark-color;
   font-size: 1em;
-  .navi-pc {
-    @include MD {
-      display: none;
-    }
   }
-  .navi-mobile {
-    display: none;
-    @include MD {
-      display: flex;
+    .header-wrap {
+    width: 1080px;
+    max-width: 100%;
+    height: 60px;
+    @include flex($h: space-between, $v: center);
     }
-  }
-}
 
 </style>

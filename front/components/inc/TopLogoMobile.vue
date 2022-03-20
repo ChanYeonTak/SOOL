@@ -1,26 +1,26 @@
 <template>
-  <div class="top-logo">
+  <div class="top-logo-mobile">
     <router-link to="/">
-      <img src="/img/logo/BYOB_logo.png">
+      <img src="/img/logo/BYOB_logo_mobile.png">
     </router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'TopLogo'
+  name: 'TopLogoMobile'
 }
 </script>
 
 <style lang="scss" scoped>
-.top-logo {
-  @include flex;
+.top-logo-mobile {
+  display: none;
   @include SM {
-    display: none;
-  }
-  a {
+    display: block;
+    a {
     @include flex($v: center, $h:center);
     padding: 0.75em;
   }
+}
 }
 </style>
