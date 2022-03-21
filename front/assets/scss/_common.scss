@@ -1,5 +1,9 @@
 @import './mixins';
 
+html {
+font-family: 'Spoqa Han Sans Neo', !important;
+}
+
 html, body, h1, h2, h3, h4, h5, h6, p, div, form, /* input, textarea, */ table, td, th, header, section, aside, footer, article, nav, ul, ol, li {
   margin: 0;
   padding: 0;
@@ -19,11 +23,6 @@ table {
 input,
 input:focus {
   outline: none;
-}
-
-html,
-body {
-  font-family: 'Spoqa Han Sans Neo', sans-serif;
 }
 
 a:not(.btn) {
@@ -48,8 +47,3 @@ a:not(.btn) {
   max-width: 100%;
 }
 
-.wrapper {
-  width: 100%;
-  max-width: 1140px;
-  margin: auto;
-}

@@ -29,7 +29,7 @@ export default {
 .header-wrapper {
   @include header;
   width: 100%;
-  opacity: .8;
+  opacity: 0.95;
   background-color: $white-color;
   color: $dark-color;
   font-size: 1em;

@@ -1,31 +1,13 @@
 <template>
-  <body>
-    <div class="container">
-      <div class="font">
-        전세계의 모든 술이, 한자리에. <br>
-        this is english
-      </div>
-      <div>
-        매번 다른 사이트에서 헤매는 것은 이제 그만.
-      </div>
-      <div>
-        위스키 맥주 와인 일본주 전통주 스피릿 칵테일까지
-      </div>
-      <div>
-        직관적인 데이터
-      </div>
-      <div>
-        프라이빗 테이스팅 노트
-      </div>
-      <div>
-        끊임없는 커뮤니케이션
-      </div>
-    </div>
-  </body>
+  <Main />
 </template>
 
-<style lang="scss" scoped>
-  .container .font {
-    font-weight: 100;
+<script>
+import Main from '~/components/main/Main.vue'
+
+export default {
+  components: {
+    Main
   }
-</style>
+}
+</script>

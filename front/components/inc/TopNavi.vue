@@ -42,6 +42,7 @@ export default {
     border: 1px solid $dark-color;
     font-size: 1.5em;
     @include flex($v: center, $h: center);
+    margin-right: 0.5em;
    }
 
 }
