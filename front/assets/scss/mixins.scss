@@ -56,24 +56,28 @@
 	}
 }
 
+// 큰 데스크탑
 @mixin LG {
 	@media screen and (max-width: $lg) {
 		@content;
 	}
 }
 
+// 데스크탑
 @mixin MD {
 	@media screen and (max-width: $md) {
 		@content;
 	}
 }
 
+// 타블렛
 @mixin SM {
 	@media screen and (max-width: $sm) {
 		@content;
 	}
 }
 
+// 스마트폰 가로
 @mixin XS {
 	@media screen and (max-width: $xs) {
 		@content;

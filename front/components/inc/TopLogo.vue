@@ -15,12 +15,11 @@ export default {
 <style lang="scss" scoped>
 .top-logo {
   @include flex;
+  @include flex($v: center, $h:center);
+  padding: 0.75em;
+
   @include SM {
     display: none;
-  }
-  a {
-    @include flex($v: center, $h:center);
-    padding: 0.75em;
   }
 }
 </style>

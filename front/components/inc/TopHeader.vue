@@ -37,7 +37,7 @@ export default {
     .header-wrap {
     width: 1080px;
     max-width: 100%;
-    height: 60px;
+    height: 50px;
     @include flex($h: space-between, $v: center);
     }
 

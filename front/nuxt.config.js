@@ -14,14 +14,15 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      { rel: 'stylesheet', type: 'text/css', href: '~/assets/fonts/fonts.css' }
+      // 한글 폰트 SpoqaHanSansNeo, 영어 폰트 Inter
+
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    // 한글 폰트 SpoqaHanSansNeo, 영어 폰트 Inter
-    '~/assets/fonts/fonts.css'
   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [

@@ -17,10 +17,6 @@ export default {
   display: none;
   @include SM {
     display: block;
-    a {
-    @include flex($v: center, $h:center);
-    padding: 0.75em;
-  }
 }
 }
 </style>

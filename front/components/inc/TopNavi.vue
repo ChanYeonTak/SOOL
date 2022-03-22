@@ -27,7 +27,7 @@ export default {
   }
   .search input{
     width: 300px;
-    height: 40px;
+    height: 30px;
     font-size: .7em;
     border: 1px solid $dark-color;
     @include MD {
@@ -35,12 +35,12 @@ export default {
     }
   }
     .account .user {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: $white-color;
     border: 1px solid $dark-color;
-    font-size: 1.5em;
+    font-size: 1em;
     @include flex($v: center, $h: center);
     margin-right: 0.5em;
    }
