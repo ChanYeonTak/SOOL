@@ -16,6 +16,9 @@ export default {
 .top-logo-mobile {
   display: none;
   @include SM {
+      @include flex;
+  @include flex($v: center, $h:center);
+  padding: 0.75em;
     display: block;
 }
 }
