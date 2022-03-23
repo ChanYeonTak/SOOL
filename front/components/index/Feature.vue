@@ -4,7 +4,7 @@
       <div class="feather-wrap main1">
         <div class="text-wp1">
           <h1 class="mb-3">직관적인 데이터</h1>
-          <h3>주류마다 세분화된 데이터로 만나는</h3>
+          <h3>주류마다 세분화된 데이터로 만나는 </h3>
           <h3 class="mb-3">한국형 테이스팅 노트</h3>
           <h5>기능을 선보이기 위해 개발하고 있습니다.</h5>
         </div>
@@ -78,7 +78,7 @@ export default {
   }
   .text-wp2 {
     @include abs;
-    left: 55%;
+    left: 60%;
     transform: translateX(-25%);
     top: 20%;
   }
@@ -90,43 +90,43 @@ export default {
   }
 
   .main1 {
-    background-image: url("~assets/img/main/main_lg_1_(1280x720).png");
+    background-image: url("~assets/img/feather/feather_lg_1_(1280x640).png");
   }
   .main2 {
-    background-image: url("~assets/img/main/main_lg_2_(1280x720).png");
+    background-image: url("~assets/img/feather/feather_lg_2_(1280x640).png");
   }
   .main3 {
-    background-image: url("~assets/img/main/main_lg_3_(1280x720).png");
+    background-image: url("~assets/img/feather/feather_lg_3_(1280x640).png");
   }
   @include LG {
     .main1 {
-      background-image: url("~assets/img/main/main_lg_1_(1280x720).png");
+    background-image: url("~assets/img/feather/feather_lg_1_(1280x640).png");
     }
     .main2 {
-      background-image: url("~assets/img/main/main_lg_2_(1280x720).png");
+    background-image: url("~assets/img/feather/feather_lg_2_(1280x640).png");
     }
     .main3 {
-      background-image: url("~assets/img/main/main_lg_3_(1280x720).png");
+    background-image: url("~assets/img/feather/feather_lg_3_(1280x640).png");
     }
     @include MD {
       .main1 {
-        background-image: url("~assets/img/main/main_md_1_(992x558).png");
+    background-image: url("~assets/img/feather/feather_lg_1_(1280x640).png");
       }
       .main2 {
-        background-image: url("~assets/img/main/main_md_2_(992x558).png");
+    background-image: url("~assets/img/feather/feather_lg_2_(1280x640).png");
       }
       .main3 {
-        background-image: url("~assets/img/main/main_md_3_(992x558).png");
+    background-image: url("~assets/img/feather/feather_lg_3_(1280x640).png");
       }
       @include XS {
         .main1 {
-          background-image: url("~assets/img/main/main_xs_1_(576x324).png");
+    background-image: url("~assets/img/feather/feather_lg_1_(1280x640).png");
         }
         .main2 {
-          background-image: url("~assets/img/main/main_xs_2_(576x324).png");
+    background-image: url("~assets/img/feather/feather_lg_2_(1280x640).png");
         }
         .main3 {
-          background-image: url("~assets/img/main/main_xs_3_(576x324).png");
+    background-image: url("~assets/img/feather/feather_lg_3_(1280x640).png");
         }
       }
     }

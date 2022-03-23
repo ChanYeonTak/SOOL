@@ -15,7 +15,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
-      { rel: 'stylesheet', type: 'text/css', href: '~/assets/fonts/fonts.css' }
+      { rel: 'stylesheet', type: 'text/css', href: '@/assets/fonts/fonts.css' }
       // 한글 폰트 SpoqaHanSansNeo, 영어 폰트 Inter
 
     ]
