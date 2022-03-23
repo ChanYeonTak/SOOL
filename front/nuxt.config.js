@@ -2,6 +2,10 @@ import * as FontAwesome from './assets/icon/fontawesome'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
+  router: {
+    base: '/ChanYeonTak/SOOL/'
+  },
   head: {
     title: 'BYOB - 전세계 모든 술이 한자리에',
     htmlAttrs: {
