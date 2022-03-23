@@ -1,0 +1,29 @@
+{
+  "IncBottomFooter": {
+    "description": "Auto imported from components/inc/BottomFooter.vue"
+  },
+  "IncTopHeader": {
+    "description": "Auto imported from components/inc/TopHeader.vue"
+  },
+  "IncTopLogo": {
+    "description": "Auto imported from components/inc/TopLogo.vue"
+  },
+  "IncTopLogoMobile": {
+    "description": "Auto imported from components/inc/TopLogoMobile.vue"
+  },
+  "IncTopNavi": {
+    "description": "Auto imported from components/inc/TopNavi.vue"
+  },
+  "IncTopNaviMobile": {
+    "description": "Auto imported from components/inc/TopNaviMobile.vue"
+  },
+  "IndexFeature": {
+    "description": "Auto imported from components/index/Feature.vue"
+  },
+  "IndexMain": {
+    "description": "Auto imported from components/index/Main.vue"
+  },
+  "IndexSchedule": {
+    "description": "Auto imported from components/index/Schedule.vue"
+  }
+}
